@@ -9,6 +9,10 @@
   <li>ionic cordova emulate android</li>
   <li>ionic login example@gmail.com Password</li>
   <li>ionic cordova resources android</li>
+  <li>ionic cordova build android --prod --release</li>
+  <li></li>
+  <li></li>
+  <li></li>
   *error*
   <li>npm install</li>
   <li>npm view ionic-native</li>
