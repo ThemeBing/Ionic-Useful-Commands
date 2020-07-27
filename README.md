@@ -13,6 +13,7 @@
   <li> keytool -genkey -v -keystore NAME_TO_CHANGE.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000</li>
   <li>After generate keystore copy and paste unsigned app to root folder</li>
   <li>jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore KEY_NAME_TO_CHANGE.keystore app-release-unsigned.apk alias_name</li>
+  <li>zipalign -v 4 app-release-unsigned.apk MY_APP_NAME.apk</li>
   *error*
   <li>npm install</li>
   <li>npm view ionic-native</li>
