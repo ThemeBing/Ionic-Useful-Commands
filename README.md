@@ -18,13 +18,8 @@
   <li>npm install</li>
   <li>npm view ionic-native</li>
 </ul>
-
-
-
-
-
-
-
+<br>
+<br>
 <p>Here are the typical steps to set JAVA_HOME on Windows 10.</p>
 <ol>
 <li>Search for Advanced System Settings in your windows Search box. Click on Advanced System Settings.</li>
