@@ -18,3 +18,20 @@
   <li>npm install</li>
   <li>npm view ionic-native</li>
 </ul>
+
+
+
+
+
+
+
+<p>Here are the typical steps to set JAVA_HOME on Windows 10.</p>
+<ol>
+<li>Search for Advanced System Settings in your windows Search box. Click on Advanced System Settings.</li>
+<li>Click on&nbsp;<strong>Environment variables</strong>&nbsp;button: Environment Variables popup will open.</li>
+<li>Goto&nbsp;<strong>system variables session</strong>, and click on New button to create new variable (HOME_PATH), then New System Variables popup will open.</li>
+<li>Give&nbsp;<strong>Variable Name: JAVA_HOME</strong>, and Variable value : Your Java SDK home path. Ex:&nbsp;<strong>C:\Profram files\java\jdk1.8.0_151</strong>&nbsp;Note: It should not include&nbsp;<em>\bin</em>. Then click on OK button.</li>
+<li>Now you are able to see your JAVA_HOME in system variables list.</li>
+<li><strong>Select Path</strong>&nbsp;(from system variables list) and&nbsp;<strong>click on Edit button</strong>, A new pop will opens (Edit Environment Variables). It was introduced in windows 10.</li>
+<li>Click on New button and give&nbsp;<strong>%JAVA_HOME%\bin</strong>&nbsp;at highlighted field and click Ok button</li>
+</ol>
