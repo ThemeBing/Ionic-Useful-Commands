@@ -22,6 +22,7 @@
 <br>
 <p>Here are the typical steps to set JAVA_HOME on Windows 10.</p>
 <ol>
+  <li>ANDROID_HOME/ANDROID_SDK_ROOT = C:\Users\Tashfin\AppData\Local\Android\Sdk</li>
 <li>Search for Advanced System Settings in your windows Search box. Click on Advanced System Settings.</li>
 <li>Click on&nbsp;<strong>Environment variables</strong>&nbsp;button: Environment Variables popup will open.</li>
 <li>Goto&nbsp;<strong>system variables session</strong>, and click on New button to create new variable (HOME_PATH), then New System Variables popup will open.</li>
