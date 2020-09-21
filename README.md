@@ -10,6 +10,11 @@
   <li>ionic login example@gmail.com Password</li>
   <li>ionic cordova resources android</li>
   <li>ionic cordova build android --prod --release</li>
+  <li>(Error When Creating the Keystore)
+    Go to Control Panel > System > Advanced System Settings > Environment Variables.
+Look for the PATH variable under System Variables and highlight it.
+Click Edit.
+In the Variable Value field, add a semicolon at the end of the values listed and the path to Java’s bin folder on your computer. For example: C:\Program Files\Java\jre6\bin</li>
   <li> keytool -genkey -v -keystore NAME_TO_CHANGE.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000</li>
   <li>After generate keystore copy and paste unsigned app to root folder</li>
   <li>jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore KEY_NAME_TO_CHANGE.keystore app-release-unsigned.apk alias_name</li>
