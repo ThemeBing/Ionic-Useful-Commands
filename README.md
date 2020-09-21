@@ -14,7 +14,7 @@
     Go to Control Panel > System > Advanced System Settings > Environment Variables.
 Look for the PATH variable under System Variables and highlight it.
 Click Edit.
-In the Variable Value field, add a semicolon at the end of the values listed and the path to Java’s bin folder on your computer. For example: <b>C:\Program Files\Java\jre1.8.0_261\bin and C:\Program Files\Java\jdk1.8.0_221\bin</b></li>
+In the Variable Value field, add a semicolon at the end of the values listed and the path to Java’s bin folder on your computer. For example: <b>C:\Program Files\Java\jre1.8.0_261\bin</b> and <b>C:\Program Files\Java\jdk1.8.0_221\bin</b></li>
   <li> keytool -genkey -v -keystore NAME_TO_CHANGE.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000</li>
   <li>After generate keystore copy and paste unsigned app to root folder</li>
   <li>jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore KEY_NAME_TO_CHANGE.keystore app-release-unsigned.apk alias_name</li>
